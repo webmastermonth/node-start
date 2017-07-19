@@ -1,4 +1,5 @@
 // Специальня переменная exports
+// global - для глобальных переменных
 var x = 5;
 
 function User(name) {
@@ -14,3 +15,4 @@ User.prototype.hello = function (who){
 console.log("user.js is required!");
 
 exports.User = User;
+global.User = User;
