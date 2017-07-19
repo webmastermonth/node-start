@@ -14,7 +14,7 @@ User.prototype.hello = function (who){
 };
 // ...
 
-console.log("user/index.js is required!");
+console.log("user.js is required!");
 
 exports.User = User;
 global.User = User;
