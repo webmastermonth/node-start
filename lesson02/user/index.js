@@ -14,10 +14,9 @@ User.prototype.hello = function (who){
 };
 // ...
 
-console.log("user/index.js is required!");
+//console.log("user/index.js is required!");
 
-module.exports.User = User;
-global.User = User;
+module.exports = User;
 
 // Вывод информации о модулях
 //console.log(module);

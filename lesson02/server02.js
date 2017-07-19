@@ -1,3 +1,4 @@
+// module.exports = exports = this
 var User = require('./user');
 
 function run(){
