@@ -12,3 +12,4 @@
 
 * server01.js,app01.js - пример проверки подключения модуля
 * server02.js, usser/index.js - пример использования module.exports
+* server02.js, db/index.js  - расширение классов
